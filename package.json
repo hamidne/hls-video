@@ -1,5 +1,5 @@
 {
-  "name": "opengate-cms",
+  "name": "hls-video",
   "version": "1.0.0",
   "description": "My premium Nuxt.js project",
   "author": "HamidNE",
@@ -19,7 +19,7 @@
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0",
     "jalali-moment": "^3.3.3",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.11.0",
     "shabnam-font": "^5.0.0",
     "vue-api-query": "^1.5.1",
     "vue-persian-datetime-picker": "^2.1.2"

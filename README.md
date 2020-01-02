@@ -1,4 +1,4 @@
-# opengate-cms
+# hls-video
 
 > My premium Nuxt.js project
 
