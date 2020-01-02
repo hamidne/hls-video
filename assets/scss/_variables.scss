@@ -1,0 +1,53 @@
+// Typography
+$font-family-sans-serif: Shabnam, sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.9;
+$font-weight-base: 300;
+$headings-font-weight: 700;
+
+// Colors
+$body-bg: #fbfcf6;
+$body-color: #534b68;
+$link-color: #777;
+$border-color: #eee;
+
+$red: #f04d5e;
+$indigo: #6574cd;
+$orange: #f6993f;
+$yellow: #ffb822;
+$green: #34bfa3;
+$teal: #4dc0b5;
+$cyan: #00e4ff;
+$pink: #f21692;
+$primary: #24315f;
+$secondary: #ccdde7;
+
+$theme-colors: (
+  "cyan": $cyan,
+  "grey": #757575,
+);
+
+$component-active-bg: darken($secondary, 25%);
+
+$badge-border-radius: .25rem;
+
+
+$input-border-color:#ebedf2;
+$border-radius: .5rem;
+$breadcrumb-divider-color: #f04d5e;
+
+
+$custom-control-indicator-size: 1.2rem;
+$custom-checkbox-indicator-border-radius: .25rem;
+$custom-control-indicator-size: 1rem;
+
+
+$nav-link-disabled-color: #babfc4;
+
+
+//////////// FONTS ////////////////
+
+$la-font-path: "../fonts" !default;
+$la-css-prefix: fa !default;
+$la-font-name: "LineAwesome" !default;
+$la-version: "1.1.";

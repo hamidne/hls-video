@@ -1,0 +1,32 @@
+{
+  "name": "opengate-cms",
+  "version": "1.0.0",
+  "description": "My premium Nuxt.js project",
+  "author": "HamidNE",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "jalali-moment": "^3.3.3",
+    "nuxt": "^2.0.0",
+    "shabnam-font": "^5.0.0",
+    "vue-api-query": "^1.5.1",
+    "vue-persian-datetime-picker": "^2.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "sass-resources-loader": "^2.0.1"
+  }
+}

@@ -1,0 +1,58 @@
+img {
+  max-width: 100%;
+}
+
+@for $var from 1 to 9 {
+	@for $var2 from 0 to 9 {
+		.font-#{$var}#{$var2} {
+			font-size: #{($var + ($var2 / 10))}rem !important;
+		}
+	}
+}
+@for $var1 from 0 to 9 {
+	.font-0#{$var1} {
+		font-size: #{$var1 / 10}rem !important;
+	}
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+.text-in-one-line {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.invalid-feedback {
+	display: block;
+}
+
+.nav-tabs-line {
+	border-bottom: 3px solid rgba(255, 93, 93, 0.1);
+
+	.nav-link {
+		cursor: pointer;
+
+		&:hover {
+			border-color: transparent;
+		}
+
+		&.active {
+			margin-bottom: -3px;
+			background-color: unset;
+			color: rgb(255, 93, 93);
+			border-color: transparent;
+			border-bottom: 3px solid rgba(255, 93, 93, 0.7);
+		}
+	}
+}
+
+.progress.filed {
+	height: 0.5rem;
+	.progress-bar.bg-secondary {
+		background: #a8c5d6 !important;
+	}
+}
