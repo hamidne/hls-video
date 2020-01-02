@@ -2,7 +2,8 @@ require("dotenv").config();
 
 export default {
 	"/api/": {
-		target: process.env.API_URL,
+    target: process.env.API_URL,
+    pathRewrite: {'^/api/': ''},
 		secure: false
 	},
 	"/media/": {

@@ -7,7 +7,7 @@ export default class Model extends BaseModel {
 	}
 
 	baseURL() {
-		return "/api/admin";
+		return "/api";
 	}
 
 	request(config) {
