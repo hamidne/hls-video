@@ -21,6 +21,7 @@
     "jalali-moment": "^3.3.3",
     "nuxt": "^2.11.0",
     "shabnam-font": "^5.0.0",
+    "video.js": "^7.6.6",
     "vue-api-query": "^1.5.1",
     "vue-persian-datetime-picker": "^2.1.2"
   },
