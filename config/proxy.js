@@ -6,7 +6,7 @@ export default {
     pathRewrite: {'^/api/': ''},
 		secure: false
 	},
-	"/media/": {
+	"/stream/": {
 		target: process.env.API_URL,
 		secure: false
 	},
