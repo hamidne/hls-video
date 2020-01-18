@@ -31,7 +31,7 @@ export default {
       form.append("video", this.form.video);
       this.$axios
         .$post("/api/videos", form)
-        .then(() => this.$router.push("videos"));
+        .then(() => this.$router.push({name: 'videos'}));
     }
   }
 };

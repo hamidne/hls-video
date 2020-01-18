@@ -23,13 +23,24 @@ export default {
     };
   },
   mounted() {
-    this.player = videojs(
+    const player = videojs(
       this.$refs.videoPlayer,
       this.options,
       function onPlayerReady() {
         console.log("onPlayerReady", this);
       }
     );
+    player.on("loadstart", function(e) {
+      player.tech().hls.xhr.beforeRequest = function(options) {
+        console.log(options);
+
+        // required for detecting only the key requests
+        // if (!options.uri.startsWith(keyPrefix)) { return; }
+        // options.headers = options.headers || {};
+        // optopns.headers["Custom-Header"] = "value";
+        // options.uri = urlTpl.replace("{key}", options.uri.substring(keyPrefix.length));
+      };
+    });
   },
   beforeDestroy() {
     if (this.player) {
