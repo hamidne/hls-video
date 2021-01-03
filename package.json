@@ -11,21 +11,26 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/auth": "^4.8.4",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.3",
     "aos": "^2.3.4",
-    "bootstrap": "^4.1.3",
-    "bootstrap-vue": "^2.0.0",
-    "jalali-moment": "^3.3.3",
-    "nuxt": "^2.11.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "jalali-moment": "^3.3.9",
+    "mux.js": "^5.7.0",
+    "nuxt": "^2.14.12",
     "shabnam-font": "^5.0.0",
-    "vue-api-query": "^1.5.1",
-    "vue-persian-datetime-picker": "^2.1.2"
+    "video.js": "^7.10.2",
+    "videojs-contrib-hls": "^5.15.0",
+    "videojs-contrib-quality-levels": "^2.0.9",
+    "videojs-hls-quality-selector": "^1.1.4",
+    "vue-api-query": "^1.8.2",
+    "vue-persian-datetime-picker": "^2.4.1"
   },
   "devDependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.0",
     "sass-resources-loader": "^2.0.1"
   }

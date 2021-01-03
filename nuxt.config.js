@@ -7,7 +7,7 @@ import plugins from "./config/plugins";
 import bootstrapVue from "./config/bootstrapVue";
 
 export default {
-  mode: "spa",
+  ssr: false,
 
   css,
   head,
